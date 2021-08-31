@@ -23,7 +23,8 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            
+            //I created fake data using factory
+            //I used factory()->count(100)->create in order to create 100 post
             'title'=>$this->faker->title,
             'body'=>$this->faker->paragraph
         ];
